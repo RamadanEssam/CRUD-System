@@ -1,0 +1,32 @@
+#clearbtn {
+    background: linear-gradient(45deg, #9bbdcc, #8689c3);
+    color: #FFF;
+    font-weight: 600;
+    float: right;
+    padding: 5px 23px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    margin: 10px 0;
+}
+
+#clearbtn:hover {
+    background: linear-gradient(45deg, #8689c3, #9bbdcc);
+    box-shadow: 0 0 10px #9bbdcc;
+    transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+@media screen and (max-width:475px) {
+    .border_r {
+        border-right: 1px solid #a29e9e;
+    }
+    #clearbtn {
+        float: right;
+    }
+}
